@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>My Profile Page</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+
+<body>
+   <div class="hero">
+      <nav><img src="images/logo.jpg" class="logo">
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">TRACKS</a></li>
+            <li><a href="#">INVESTOR</a></li>
+            <li><a href="#">CONTACTS</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <!--<li><img src="images/person.jpg" class="user-pic"></li>-->
+         </ul>
+         <img src="images/user.jpg" class="user-pic" onclick="toggleMenu()">
+
+
+         <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+               <div class="user-info">
+                  <img src="images/user.jpg" class="pico">
+                  <h2>James</h2>
+               </div>
+               <hr>
+               <a href="profile2.html" class="sub-menu-link">
+                  <img src="images/person.jpg">
+                  <p>Profile</p>
+                  <span>></span>
+               </a>
+               <a href="#" class="sub-menu-link">
+                  <img src="images/setting.png">
+                  <p>Settings & Privacy</p>
+                  <span>></span>
+               </a>
+               <a href="#" class="sub-menu-link">
+                  <img src="images/help.png">
+
+                  <p>Help & Support</p>
+                  <span>></span>
+               </a>
+               <a href="#" class="sub-menu-link">
+                  <img src="images/logout.jpg">
+                  <p>Logout</p>
+                  <span>></span>
+               </a>
+            </div>
+
+         </div>
+
+
+
+   </div>
+
+
+
+   </nav>
+   <div class="trial"><img src="images/innospark.jpg"></div>
+
+   </div>
+   <script>
+      let subMenu = document.getElementById("subMenu");
+      function toggleMenu() {
+         subMenu.classList.toggle("open-menu");
+      }</script>
+</body>
+
+</html>

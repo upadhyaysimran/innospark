@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap')
+
+html
+{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --text-1: #2C3333;
+    --text-2: #004AAD;
+    --background: #F0F6F8;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-1);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.small-text {
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+
+    line-height: 1.8rem;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--text-1);
+
+}
+
+/****/
+.comp-logo
+{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.comp-logo img {
+    width: 100px;
+}
+.people
+{
+    margin-top: 30px;
+}
+.peop-sec
+{
+    margin-bottom: 30px;
+}
+.grid-area {
+    padding-top: 40px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    gap: 45px;
+  
+}
+
+.grid {
+    height: 250px;
+    width: 350px ;
+    flex-direction: column;
+    gap: 5px;
+    
+    background: var(--background);
+    
+    border-bottom: .5rem solid #004AAD;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 17px;
+
+    padding-bottom: 26px;
+
+
+}
+.grid img
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: translateY(-30px);
+    
+}
+.grid p
+{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transform: translateY(-10px);
+}
+.grid h3
+{
+     text-align: justify;
+   
+    font-size: 1rem;
+    font-weight: 400;
+    
+    
+    
+}
+.peop-sec a
+{
+    width: 70%;
+    text-align: center;
+    
+  background-color: #2294ed;
+  color: white;
+  padding: 12px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    
+}
+.peop-sec a:hover
+{
+    background-color: #1d69a3;
+}
